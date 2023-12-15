@@ -19,5 +19,11 @@ greet_with_name("loki")
 
 my_function() #calling function
 
+#positional arguements
+def lol(name,location):
+  print(f"hi my name is {name} and i stay here in {location}")
+
+lol(location="bangalore",name="loki")
+
 #while loops
 while something_is_true:
